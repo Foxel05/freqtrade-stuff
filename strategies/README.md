@@ -47,6 +47,16 @@ If u want to use the strategy for live/dry-run, u must:
 # for backtest trailing_stop = True and use_custom_stoploss = False
 ```
 
+## General Recommendations
+
+For optimal performance, suggested to use between 4 and 6 open trades, with unlimited stake.
+
+A pairlist with 40 to 80 pairs. Volume pairlist works well.
+
+Prefer stable coin (USDT, BUSD etc) pairs, instead of BTC or ETH pairs.
+
+Highly recommended to blacklist leveraged tokens (*BULL, *BEAR, *UP, *DOWN etc).
+
 ## Backtest
 
 I will add some backtest here later!
