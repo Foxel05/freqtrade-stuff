@@ -192,24 +192,40 @@ Removes pairs where the difference between lowest low and highest high over `loo
 ```
 ## Other usefull repository 
 
-[iterativv/NostalgiaForInfinity](https://github.com/iterativv/NostalgiaForInfinity)
+#### Strategy repository
 
-[freqtrade/freqtrade-strategies](https://github.com/freqtrade/freqtrade-strategies)
+- [iterativv/NostalgiaForInfinity](https://github.com/iterativv/NostalgiaForInfinity)
 
-[werkkrew/freqtrade-strategies](https://github.com/werkkrew/freqtrade-strategies)
+- [freqtrade/freqtrade-strategies](https://github.com/freqtrade/freqtrade-strategies)
 
-[i1ya/freqtrade-strategies](https://github.com/i1ya/freqtrade-strategies)
+- [werkkrew/freqtrade-strategies](https://github.com/werkkrew/freqtrade-strategies)
 
-[froggleston/cryptofrog-strategies](https://github.com/froggleston/cryptofrog-strategies)
+- [i1ya/freqtrade-strategies](https://github.com/i1ya/freqtrade-strategies)
 
-[brookmiles/freqtrade-stuff](https://github.com/brookmiles/freqtrade-stuff)
+- [froggleston/cryptofrog-strategies](https://github.com/froggleston/cryptofrog-strategies)
 
-[freqtrade/berlinguyinca-trading-strategies](https://github.com/freqtrade/berlinguyinca-trading-strategies)
+- [brookmiles/freqtrade-stuff](https://github.com/brookmiles/freqtrade-stuff)
 
-[paulcpk/freqtrade-strategies-that-work](https://github.com/paulcpk/freqtrade-strategies-that-work)
+- [freqtrade/berlinguyinca-trading-strategies](https://github.com/freqtrade/berlinguyinca-trading-strategies)
 
-[hansen1015/freqtrade_strategy](https://github.com/hansen1015/freqtrade_strategy)
+- [paulcpk/freqtrade-strategies-that-work](https://github.com/paulcpk/freqtrade-strategies-that-work)
 
-[GeorgeMurAlkh/freqtrade-stuff](https://github.com/GeorgeMurAlkh/freqtrade-stuff)
+- [hansen1015/freqtrade_strategy](https://github.com/hansen1015/freqtrade_strategy)
 
-[nightshift2k/freqtrade-strategies](https://github.com/nightshift2k/freqtrade-strategies)  
+- [GeorgeMurAlkh/freqtrade-stuff](https://github.com/GeorgeMurAlkh/freqtrade-stuff)
+
+- [nightshift2k/freqtrade-strategies](https://github.com/nightshift2k/freqtrade-strategies)  
+
+- [Rikj000/MoniGoMani](https://github.com/Rikj000/MoniGoMani)
+
+- [p-zombie/freqtrade](https://github.com/p-zombie/freqtrade)
+
+#### Frequi repository
+
+- [freqtrade/frequi](https://github.com/freqtrade/frequi)
+
+- [froggleston/freqtrade-frogtrade9000](https://github.com/froggleston/freqtrade-frogtrade9000)
+
+- [thraizz/freqtrade-dashboard](https://github.com/thraizz/freqtrade-dashboard)
+
+- [orkblutt/QFreqtradeUI](https://github.com/orkblutt/QFreqtradeUI)
