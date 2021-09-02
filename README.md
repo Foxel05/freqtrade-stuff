@@ -224,6 +224,8 @@ Removes pairs where the difference between lowest low and highest high over `loo
 
 - [freqtrade/frequi](https://github.com/freqtrade/frequi)
 
+- [loewensteinph/ft_grafana](https://github.com/loewensteinph/ft_grafana)
+
 - [froggleston/freqtrade-frogtrade9000](https://github.com/froggleston/freqtrade-frogtrade9000)
 
 - [thraizz/freqtrade-dashboard](https://github.com/thraizz/freqtrade-dashboard)
