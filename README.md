@@ -3,7 +3,7 @@
 In this Github repository I will share my freqtrade files with you.
 
 You should check the
-[freqtrade repository](https://github.com/freqtrade/freqtrade/)and the offical [freqtrade Website](https://www.freqtrade.io/en/latest/)
+[freqtrade repository](https://github.com/freqtrade/freqtrade/) and the offical [freqtrade Website](https://www.freqtrade.io/en/latest/)
 
 ## Disclaimer
 
