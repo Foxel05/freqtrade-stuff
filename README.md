@@ -5,11 +5,10 @@ I want to help people with this repository who don't know Freqtrade so much yet.
 
 You should check the [freqtrade repository](https://github.com/freqtrade/freqtrade/) and the offical [freqtrade Website](https://www.freqtrade.io/en/latest/)
 
-And if you need more help, I can recommend this youtube video
-
-[![Video](https://i.ytimg.com/vi/wq3uLSDJxUQ/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAq0Kl2t-u_Vruy8BSRQRxMSTvHKA)](https://www.youtube.com/watch?v=wq3uLSDJxUQ)
-
 - [Freqtrade Discord Server](https://discord.gg/p7nuUNVfP7)
+
+And if you need more help, I can recommend this youtube video
+[![Video](https://i.ytimg.com/vi/wq3uLSDJxUQ/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAq0Kl2t-u_Vruy8BSRQRxMSTvHKA)](https://www.youtube.com/watch?v=wq3uLSDJxUQ)
 
 ## Disclaimer
 
@@ -170,10 +169,26 @@ Removes pairs where the difference between lowest low and highest high over `loo
         },
     ],
 ```
-## Related
+## Other usefull repository 
 
-Here are some related projects
+[iterativv/NostalgiaForInfinity](https://github.com/iterativv/NostalgiaForInfinity)
 
-[Awesome README](https://github.com/matiassingers/awesome-readme)
+[freqtrade/freqtrade-strategies](https://github.com/freqtrade/freqtrade-strategies)
 
-  
+[werkkrew/freqtrade-strategies](https://github.com/werkkrew/freqtrade-strategies)
+
+[i1ya/freqtrade-strategies](https://github.com/i1ya/freqtrade-strategies)
+
+[froggleston/cryptofrog-strategies](https://github.com/froggleston/cryptofrog-strategies)
+
+[brookmiles/freqtrade-stuff](https://github.com/brookmiles/freqtrade-stuff)
+
+[freqtrade/berlinguyinca-trading-strategies](https://github.com/freqtrade/berlinguyinca-trading-strategies)
+
+[paulcpk/freqtrade-strategies-that-work](https://github.com/paulcpk/freqtrade-strategies-that-work)
+
+[hansen1015/freqtrade_strategy](https://github.com/hansen1015/freqtrade_strategy)
+
+[GeorgeMurAlkh/freqtrade-stuff](https://github.com/GeorgeMurAlkh/freqtrade-stuff)
+
+[nightshift2k/freqtrade-strategies](https://github.com/nightshift2k/freqtrade-strategies)  
