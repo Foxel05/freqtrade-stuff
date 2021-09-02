@@ -112,7 +112,7 @@ ask strategy
     },
 ```  
 
-## Pairlist
+### Pairlist
 
 
 
@@ -171,7 +171,7 @@ Removes pairs where the difference between lowest low and highest high over `loo
     ],
 ```
 
-## Pair blacklist
+### Pair blacklist
 ```javascript
 "pair_blacklist": [
     // Exchange
