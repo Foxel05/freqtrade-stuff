@@ -8,6 +8,7 @@ You should check the [freqtrade repository](https://github.com/freqtrade/freqtra
 And if you need more help, I can recommend this youtube video
 [![Video](https://i.ytimg.com/vi/wq3uLSDJxUQ/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAq0Kl2t-u_Vruy8BSRQRxMSTvHKA)](https://www.youtube.com/watch?v=wq3uLSDJxUQ)
 
+
 - [Freqtrade Discord Server](https://discord.gg/p7nuUNVfP7)
 
 ## Disclaimer
