@@ -190,7 +190,7 @@ Removes pairs where the difference between lowest low and highest high over `loo
     ".*(CHZ|CTXC|HBAR|NMR|SHIB|SLP|XVS|ONG)/.*"
 ]
 ```
-## Other usefull repository 
+## Other useful repository 
 
 #### Strategy repository
 
