@@ -44,6 +44,36 @@ Prefer stable coin (USDT, BUSD etc) pairs, instead of BTC or ETH pairs.
 
 Highly recommended to blacklist leveraged tokens (*BULL, *BEAR, *UP, *DOWN etc).
 
+#### docker install pandas_ta
+
+I heard this does not work for everyone, but it worked fine for me.
+
+Add an extra docker file (`Dockerfile.custom`) with this stuff:
+```FROM freqtradeorg/freqtrade:develop
+
+# Switch user to root if you must install something from apt
+# Don't forget to switch the user back below!
+# USER root
+
+# The below dependency - pyti - serves as an example. Please use whatever you need!
+# RUN pip install pyti
+# RUN pip --no-cache-dir install pandas_ta
+# RUN apt-get install python3-pandas -y
+RUN pip install ta finta pandas_ta
+
+
+# USER ftuser
+```
+
+Now you have to link this extra docker file to the freqtrade main docker file
+```build:
+      context: .
+      dockerfile: "./Dockerfile.custom"
+```
+
+You can find all that stuff on: 
+- https://www.freqtrade.io/en/latest/docker_quickstart/#additional-dependencies-with-docker-compose
+
 ## Backtest
 
 I will add some backtest here later!
