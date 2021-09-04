@@ -49,7 +49,8 @@ Highly recommended to blacklist leveraged tokens (*BULL, *BEAR, *UP, *DOWN etc).
 I heard this does not work for everyone, but it worked fine for me.
 
 Add an extra docker file (`Dockerfile.custom`) with this stuff:
-```FROM freqtradeorg/freqtrade:develop
+```
+FROM freqtradeorg/freqtrade:develop
 
 # Switch user to root if you must install something from apt
 # Don't forget to switch the user back below!
@@ -66,7 +67,8 @@ RUN pip install ta finta pandas_ta
 ```
 
 Now you have to link this extra docker file to the freqtrade main docker file
-```build:
+```
+   build:
       context: .
       dockerfile: "./Dockerfile.custom"
 ```
