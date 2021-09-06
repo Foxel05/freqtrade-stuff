@@ -220,6 +220,8 @@ Removes pairs where the difference between lowest low and highest high over `loo
 
 - [p-zombie/freqtrade](https://github.com/p-zombie/freqtrade)
 
+- [StudyRemy/freqtrade_stuff](https://github.com/StudyRemy/freqtrade_stuff)
+
 #### Frequi repository
 
 - [freqtrade/frequi](https://github.com/freqtrade/frequi)
