@@ -233,3 +233,5 @@ Removes pairs where the difference between lowest low and highest high over `loo
 - [thraizz/freqtrade-dashboard](https://github.com/thraizz/freqtrade-dashboard)
 
 - [orkblutt/QFreqtradeUI](https://github.com/orkblutt/QFreqtradeUI)
+
+- [QTinman/freqStratStat](https://github.com/QTinman/freqStratStat)
