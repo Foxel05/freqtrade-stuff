@@ -222,6 +222,10 @@ Removes pairs where the difference between lowest low and highest high over `loo
 
 - [StudyRemy/freqtrade_stuff](https://github.com/StudyRemy/freqtrade_stuff)
 
+#### Freqtrade Setup guide
+
+- [samgermain/freqtrade-ec2-instructions](https://github.com/samgermain/freqtrade-ec2-instructions) AWS
+
 #### Frequi repository
 
 - [freqtrade/frequi](https://github.com/freqtrade/frequi)
