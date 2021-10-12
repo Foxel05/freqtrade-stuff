@@ -71,7 +71,7 @@
             "(CHZ|CTXC|HBAR|NMR|SHIB|SLP|XVS|ONG|ARDR)/.*"
         ]
     },
-    "pairlist": [
+    "pairlists": [
         {
 			"method": "VolumePairList",
 			"number_assets": 75,

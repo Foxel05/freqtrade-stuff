@@ -111,7 +111,7 @@ Removes pairs where the difference between lowest low and highest high over `loo
 
 
 ```javascript
-"pairlist": [
+"pairlists": [
     {
         "method": "VolumePairList",
         "number_assets": 75,
