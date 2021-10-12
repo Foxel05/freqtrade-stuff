@@ -7,15 +7,15 @@ Inspired by:
 
 Simple Bash script to check for [NostalgiaForInfinityNext](https://github.com/iterativv/NostalgiaForInfinity) newly added tags and update it for usage with [Freqtrade](https://github.com/freqtrade/freqtrade) bot.
 
-### Differance between `update.sh` and `docker_update` 
+### Differance between [`update.sh`](https://github.com/Foxel05/freqtrade-stuff/blob/master/NostalgiaForInfinity_updater/update.sh) and [`docker_update.sh`](https://github.com/Foxel05/freqtrade-stuff/blob/master/NostalgiaForInfinity_updater/docker_update.sh) 
 
 If you have freqtrade running in Docker - the Docker container will be restarted automatically
 
-## Installation `update.sh`
+## Installation [`update.sh`](https://github.com/Foxel05/freqtrade-stuff/blob/master/NostalgiaForInfinity_updater/update.sh)
 
 Clone the update.sh file
 
-Open `update.sh` file and change some variables:
+Open [`update.sh`](https://github.com/Foxel05/freqtrade-stuff/blob/master/NostalgiaForInfinity_updater/update.sh) file and change some variables:
 - `ROOT_PATH` - path to the directory where `NostalgiaForInfinityNext` and `freqtrade` directories are places
 - `TG_TOKEN` - Telegram token you've got for the bot
 - `TG_CHAT_ID` - Telegram chat ID with your bot
@@ -36,11 +36,11 @@ Log into your server and type `crontab -e`. Next you should be editing the cron 
 
 Once that is saved, the updater will check for new git updates every 30 mins and notify you via Telegram if there was anything new so you can restart it.
 
-## Installation `docker_update.sh`
+## Installation [`docker_update.sh`](https://github.com/Foxel05/freqtrade-stuff/blob/master/NostalgiaForInfinity_updater/docker_update.sh)
 
 Clone the docker_update.sh file
 
-Open `docker_update.sh` file and change some variables:
+Open [`docker_update.sh`](https://github.com/Foxel05/freqtrade-stuff/blob/master/NostalgiaForInfinity_updater/docker_update.sh) file and change some variables:
 - `ROOT_PATH` - path to the directory where `NostalgiaForInfinityNext` and `freqtrade` directories are places
 - `TG_TOKEN` - Telegram token you've got for the bot
 - `TG_CHAT_ID` - Telegram chat ID with your bot
