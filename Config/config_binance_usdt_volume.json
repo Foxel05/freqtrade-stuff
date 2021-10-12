@@ -73,33 +73,37 @@
     },
     "pairlists": [
         {
-            "method": "VolumePairList",
-            "number_assets": 100,
-            "sort_key": "quoteVolume",
-            "refresh_period": 1800
-        },
-        {"method": "AgeFilter", "min_days_listed": 7},
-        {"method": "SpreadFilter", "max_spread_ratio": 0.005},
-        {"method": "PriceFilter", "low_price_ratio": 0.002},
-        {
-            "method": "RangeStabilityFilter",
-            "lookback_days": 3,
-            "min_rate_of_change": 0.1,
-            "refresh_period": 1800
-        },
-        {
-            "method": "VolatilityFilter",
-            "lookback_days": 3,
-            "min_volatility": 0.0,
-            "max_volatility": 0.75,
-            "refresh_period": 1800
-        },
-        {
-            "method": "VolumePairList",
-            "number_assets": 80,
-            "sort_key": "quoteVolume",
-            "refresh_period": 1800
-        }
+			"method": "VolumePairList",
+			"number_assets": 70,
+			"sort_key": "quoteVolume",
+			"refresh_period": 1800
+		},
+		{"method": "AgeFilter", "min_days_listed": 14},
+		{"method": "SpreadFilter", "max_spread_ratio": 0.005},
+		{
+			"method": "PriceFilter",
+			"low_price_ratio": 0.10,
+			"min_price": 0.001
+		},
+		{
+			"method": "RangeStabilityFilter",
+			"lookback_days": 3,
+			"min_rate_of_change": 0.1,
+			"refresh_period": 1800
+		},
+		{
+			"method": "VolatilityFilter",
+			"lookback_days": 3,
+			"min_volatility": 0.02,
+			"max_volatility": 0.75,
+			"refresh_period": 43200
+		},
+		{
+			"method": "VolumePairList",
+			"number_assets": 50,
+			"sort_key": "quoteVolume"
+		},
+        {"method": "ShuffleFilter"}
     ],
     "edge": {
         "enabled": false,
@@ -117,8 +121,19 @@
     },
     "telegram": {
         "enabled": true,
-        "token": "",
-        "chat_id": "",
+        "token": "1829922623:AAEUR6nJxVzQRMjXT-m8-y1csXsnkWK-XXA",
+        "chat_id": "-1001570919800",
+        "notification_settings": {
+            "status": "silent",
+            "warning": "on",
+            "startup": "silent",
+            "buy": "silent",
+            "sell": "on",
+            "buy_cancel": "silent",
+            "sell_cancel": "silent",
+            "buy_fill": "off",
+            "sell_fill": "off"
+         },
         "keyboard": [
             ["/daily", "/stats", "/balance", "/profit"],
             ["/status table", "/performance"],
