@@ -7,7 +7,7 @@ Inspired by:
 
 Simple Bash script to check for [NostalgiaForInfinityNext](https://github.com/iterativv/NostalgiaForInfinity) newly added tags and update it for usage with [Freqtrade](https://github.com/freqtrade/freqtrade) bot.
 
-### Differance between `update.sh` and `docker_update` 
+### Differance between `update.sh` and `docker_update.sh` 
 
 If you have freqtrade running in Docker - the Docker container will be restarted automatically
 
