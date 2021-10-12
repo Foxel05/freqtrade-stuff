@@ -25,63 +25,63 @@ Normal settings
 
 
 ```javascript
-    "max_open_trades": 4,
-    "stake_currency": "USDT",
-    "stake_amount": "unlimited",
-    "tradable_balance_ratio": 0.99,
-    "fiat_display_currency": "USD",
-    "timeframe": "5m",
-    "dry_run": true,
-    "dry_run_wallet": 300,
-    "cancel_open_orders_on_exit": false,
-    "unfilledtimeout": {
-        "buy": 5,
-        "sell": 5,
-        "unit": "minutes"
+"max_open_trades": 4,
+"stake_currency": "USDT",
+"stake_amount": "unlimited",
+"tradable_balance_ratio": 0.99,
+"fiat_display_currency": "USD",
+"timeframe": "5m",
+"dry_run": true,
+"dry_run_wallet": 300,
+"cancel_open_orders_on_exit": false,
+"unfilledtimeout": {
+    "buy": 5,
+    "sell": 5,
+    "unit": "minutes"
 ```
 
 Order types
 
 ```javascript
-    "order_types": {
-        "buy": "limit",
-        "sell": "market",
-        "emergencysell": "market",
-        "forcebuy": "market",
-        "forcesell": "market",
-        "stoploss": "market",
-        "stoploss_on_exchange": false,
-        "stoploss_on_exchange_interval": 60
-    },
+"order_types": {
+    "buy": "limit",
+    "sell": "market",
+    "emergencysell": "market",
+    "forcebuy": "market",
+    "forcesell": "market",
+    "stoploss": "market",
+    "stoploss_on_exchange": false,
+    "stoploss_on_exchange_interval": 60
+},
 ```
 
 bid strategy
 
 ```javascript
-    "bid_strategy": {
-        "price_side": "ask",
-        "ask_last_balance": 0.0,
-        "use_order_book": false,
-        "order_book_top": 1,
-        "check_depth_of_market": {
-            "enabled": false,
-            "bids_to_ask_delta": 1
-        }
-    },
+"bid_strategy": {
+    "price_side": "ask",
+    "ask_last_balance": 0.0,
+    "use_order_book": false,
+    "order_book_top": 1,
+    "check_depth_of_market": {
+        "enabled": false,
+        "bids_to_ask_delta": 1
+    }
+},
 ```  
 
 ask strategy
 
 ```javascript
-    "ask_strategy": {
-        "price_side": "bid",
-        "use_order_book": false,
-        "order_book_min": 1,
-        "order_book_max": 1,
-        "use_sell_signal": true,
-        "sell_profit_only": false,
-        "ignore_roi_if_buy_signal": true
-    },
+"ask_strategy": {
+    "price_side": "bid",
+    "use_order_book": false,
+    "order_book_min": 1,
+    "order_book_max": 1,
+    "use_sell_signal": true,
+    "sell_profit_only": false,
+    "ignore_roi_if_buy_signal": true
+},
 ```  
 
 ### Pairlist
@@ -111,40 +111,44 @@ Removes pairs where the difference between lowest low and highest high over `loo
 
 
 ```javascript
-    "pairlists": [
-        {
-			"method": "VolumePairList",
-			"number_assets": 70,
-			"sort_key": "quoteVolume",
-			"refresh_period": 1800
-		},
-		{"method": "AgeFilter", "min_days_listed": 14},
-		{"method": "SpreadFilter", "max_spread_ratio": 0.005},
-		{
-			"method": "PriceFilter",
-			"low_price_ratio": 0.10,
-			"min_price": 0.001
-		},
-		{
-			"method": "RangeStabilityFilter",
-			"lookback_days": 3,
-			"min_rate_of_change": 0.1,
-			"refresh_period": 1800
-		},
-		{
-			"method": "VolatilityFilter",
-			"lookback_days": 3,
-			"min_volatility": 0.02,
-			"max_volatility": 0.75,
-			"refresh_period": 43200
-		},
-		{
-			"method": "VolumePairList",
-			"number_assets": 50,
-			"sort_key": "quoteVolume"
-		},
-        {"method": "ShuffleFilter"}
-    ],
+"pairlists": [
+    {
+        "method": "VolumePairList",
+        "number_assets": 70,
+        "sort_key": "quoteVolume",
+        "refresh_period": 1800
+    },
+    {   "method": "AgeFilter",
+        "min_days_listed": 14
+    },
+        {"method": "SpreadFilter", 
+        "max_spread_ratio": 0.005
+    },
+    {
+        "method": "PriceFilter",
+        "low_price_ratio": 0.10,
+        "min_price": 0.001
+    },
+    {
+        "method": "RangeStabilityFilter",
+        "lookback_days": 3,
+        "min_rate_of_change": 0.1,
+        "refresh_period": 1800
+    },
+    {
+        "method": "VolatilityFilter",
+        "lookback_days": 3,
+        "min_volatility": 0.02,
+        "max_volatility": 0.75,
+        "refresh_period": 43200
+    },
+    {
+        "method": "VolumePairList",
+        "number_assets": 50,
+        "sort_key": "quoteVolume"
+    },
+    {"method": "ShuffleFilter"}
+],
 ```
 
 ### Pair blacklist
