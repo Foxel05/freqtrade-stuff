@@ -1,9 +1,13 @@
 # NFI Tags Auto Updater
 
-Inspired by:
+This is just a copy of someone else's work!!!
+
+Credits to:
 - https://github.com/shanejones/nfi-auto-update 
 
 - https://github.com/krsh-off/nfi-tags-auto-update
+
+- https://github.com/StudyRemy/Hybrid-NFI-updater
 
 Simple Bash script to check for [NostalgiaForInfinityNext](https://github.com/iterativv/NostalgiaForInfinity) newly added tags and update it for usage with [Freqtrade](https://github.com/freqtrade/freqtrade) bot.
 
