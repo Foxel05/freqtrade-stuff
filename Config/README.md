@@ -114,19 +114,14 @@ Removes pairs where the difference between lowest low and highest high over `loo
 "pairlists": [
     {
         "method": "VolumePairList",
-        "number_assets": 70,
+        "number_assets": 75,
         "sort_key": "quoteVolume",
         "refresh_period": 1800
     },
-    {   "method": "AgeFilter",
-        "min_days_listed": 14
-    },
-        {"method": "SpreadFilter", 
-        "max_spread_ratio": 0.005
-    },
+    {"method": "AgeFilter", "min_days_listed": 14},
+    {"method": "SpreadFilter", "max_spread_ratio": 0.005},
     {
         "method": "PriceFilter",
-        "low_price_ratio": 0.10,
         "min_price": 0.001
     },
     {
@@ -142,11 +137,6 @@ Removes pairs where the difference between lowest low and highest high over `loo
         "max_volatility": 0.75,
         "refresh_period": 43200
     },
-    {
-        "method": "VolumePairList",
-        "number_assets": 50,
-        "sort_key": "quoteVolume"
-    },
     {"method": "ShuffleFilter"}
 ],
 ```
@@ -154,19 +144,19 @@ Removes pairs where the difference between lowest low and highest high over `loo
 ### Pair blacklist
 ```javascript
 "pair_blacklist": [
-    // Exchange
-    ".*(BNB)/.*",
-    // Major
-     ".*(BTC|ETH)/.*",
-     // Leverage
-     ".*(_PREMIUM|BEAR|BULL|DOWN|HALF|HEDGE|UP|[1235][SL])/.*",
-    // Fiat
-    ".*(AUD|BRZ|CAD|CHF|EUR|GBP|HKD|IDRT|JPY|NGN|RUB|SGD|TRY|UAH|USD|ZAR)/.*",
-    // Stable
-    ".*(BUSD|CUSDT|DAI|PAX|PAXG|SUSD|TUSD|USDC|USDT|VAI)/.*",
-    // FAN
-    ".*(ACM|AFA|ALA|ALL|APL|ASR|ATM|BAR|CAI|CITY|FOR|GAL|GOZ|IBFK|JUV|LEG|LOCK-1|NAVI|NMR|NOV|OG|PFL|PSG|ROUSH|STV|TH|TRA|UCH|UFC|YBO)/.*",
-    // Others
-    ".*(CHZ|CTXC|HBAR|NMR|SHIB|SLP|XVS|ONG)/.*"
+    
+    "(BNB)/.*",
+    
+    ".*(BTC|ETH)/.*",
+    
+    ".*(_PREMIUM|BEAR|BULL|DOWN|HALF|HEDGE|UP|[1235][SL])/.*",
+    
+    "(AUD|BRZ|CAD|CHF|EUR|GBP|HKD|IDRT|JPY|NGN|RUB|SGD|TRY|UAH|USD|ZAR)/.*",
+    
+    "(BUSD|CUSDT|DAI|PAXG|SUSD|TUSD|USDC|USDP|USDT|VAI)/.*",
+    
+    "(ACM|AFA|ALA|ALL|APL|ASR|ATM|BAR|CAI|CITY|FOR|GAL|GOZ|IBFK|JUV|LEG|LOCK-1|NAVI|NMR|NOV|OG|PFL|PSG|ROUSH|STV|TH|TRA|UCH|UFC|YBO)/.*",
+    
+    "(CHZ|CTXC|HBAR|NMR|SHIB|SLP|XVS|ONG|ARDR)/.*"
 ]
 ```
